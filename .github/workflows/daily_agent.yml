@@ -1,0 +1,56 @@
+name: Daily Client Sourcing Agent
+
+on:
+  schedule:
+    - cron: '30 1 * * 1-5'  # 1:30am UTC = 7:00am IST, Mon–Fri only
+  workflow_dispatch:          # Allow manual trigger for testing
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Restore LinkedIn session
+        run: |
+          echo "${{ secrets.LINKEDIN_SESSION }}" > .linkedin_session.json
+        continue-on-error: true
+
+      - name: Run agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
+          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+          MAX_LEADS_PER_DAY: '10'
+          MIN_FIT_SCORE: '7'
+          OUTREACH_MODE: 'local'
+        run: python -m agent.main
+
+      - name: Save LinkedIn session
+        run: |
+          if [ -f .linkedin_session.json ]; then
+            echo "LINKEDIN_SESSION=$(cat .linkedin_session.json)" >> $GITHUB_ENV
+          fi
+        continue-on-error: true
+
+      - name: Upload output artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-run-${{ github.run_number }}
+          path: |
+            pipeline.csv
+            outreach_drafts/
+            data.md
+          retention-days: 30

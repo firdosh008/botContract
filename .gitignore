@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# LinkedIn Playwright session (contains cookies)
+.linkedin_session.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Cache
+.enrichment_cache.json
+*.pyc
+
+# Output files
+pipeline.csv
+outreach_drafts/
+logs/*.log
+failed_leads.jsonl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

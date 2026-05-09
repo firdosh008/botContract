@@ -1,0 +1,322 @@
+[
+  {
+    "id": "perfect-1",
+    "expected_min_score": 8,
+    "category": "perfect_match",
+    "job": {
+      "title": "Senior AI Engineer — RAG & Multi-Agent Systems",
+      "company": "Acme AI",
+      "location": "Remote (Worldwide)",
+      "source": "linkedin",
+      "description": "We are building a next-generation RAG pipeline with multi-agent orchestration. Looking for a contract AI engineer with deep experience in FastAPI, LangChain, and LLM APIs (OpenAI, Anthropic). You'll design vector search systems, implement prompt evaluation frameworks, and optimize agent workflows. Must be available during US EST hours. Rate: $50-80/hr. 6-month contract, remote.",
+      "apply_url": "https://example.com/job/1",
+      "salary_range": "$50-80/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "LangChain", "OpenAI", "Anthropic", "RAG", "agent", "multi-agent"]
+    }
+  },
+  {
+    "id": "perfect-2",
+    "expected_min_score": 8,
+    "category": "perfect_match",
+    "job": {
+      "title": "Freelance LLM Engineer — AI Observability Platform",
+      "company": "ObserveAI",
+      "location": "Remote (EU/US)",
+      "source": "hackernews",
+      "description": "Looking for a freelance AI engineer to build MLflow-based observability pipelines for our enterprise LLM platform. Strong experience with prompt evaluation (rule-based and model-based graders), Python, and FastAPI required. Contract role, $60-100/hr based on experience. Fully remote, async-friendly.",
+      "apply_url": "https://example.com/job/2",
+      "salary_range": "$60-100/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "MLflow", "LLM"]
+    }
+  },
+  {
+    "id": "perfect-3",
+    "expected_min_score": 8,
+    "category": "perfect_match",
+    "job": {
+      "title": "RAG Pipeline Engineer (Contract)",
+      "company": "DocuMind AI",
+      "location": "Remote",
+      "source": "wellfound",
+      "description": "DocuMind is building AI-powered document processing with RAG. We need a contract engineer to design and implement structured + unstructured data pipelines with semantic search and vector DBs. Experience with LangChain, pgvector, and FastAPI required. $45-70/hr, 3-month initial contract with extension.",
+      "apply_url": "https://example.com/job/3",
+      "salary_range": "$45-70/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "LangChain", "RAG", "pgvector", "vector database"]
+    }
+  },
+  {
+    "id": "perfect-4",
+    "expected_min_score": 8,
+    "category": "perfect_match",
+    "job": {
+      "title": "AI Agent Orchestration Engineer",
+      "company": "AgentForge",
+      "location": "Remote (Global)",
+      "source": "linkedin",
+      "description": "Build multi-agent systems for enterprise workflow automation. We're looking for a contract engineer with production experience in FastAPI, LLM APIs (OpenAI/Anthropic/Gemini), and agent orchestration patterns. Experience with RFP processing and document automation is a big plus. $55-75/hr, fully remote.",
+      "apply_url": "https://example.com/job/4",
+      "salary_range": "$55-75/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "OpenAI", "Anthropic", "agent", "multi-agent", "LLM"]
+    }
+  },
+  {
+    "id": "perfect-5",
+    "expected_min_score": 8,
+    "category": "perfect_match",
+    "job": {
+      "title": "Freelance GenAI Full-Stack Developer",
+      "company": "NeuralCraft",
+      "location": "Remote (Americas/EMEA)",
+      "source": "hackernews",
+      "description": "NeuralCraft needs a freelance full-stack AI engineer for our LLM-powered SaaS platform. Stack: React frontend, FastAPI backend, PostgreSQL, LLM APIs. You'll work on RAG features, prompt evaluation, and agent workflows. 6-month contract, $40-60/hr, async with EST overlap preferred.",
+      "apply_url": "https://example.com/job/5",
+      "salary_range": "$40-60/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "React", "PostgreSQL", "LLM", "RAG", "agent"]
+    }
+  },
+  {
+    "id": "good-1",
+    "expected_min_score": 6,
+    "category": "good_match",
+    "job": {
+      "title": "Python Backend Developer — AI/ML Focus",
+      "company": "DataPulse",
+      "location": "Remote (US timezone preferred)",
+      "source": "linkedin",
+      "description": "DataPulse is looking for a contract Python backend developer to work on our ML infrastructure. Strong FastAPI and PostgreSQL skills required. Some exposure to LLMs and vector databases preferred. Contract-to-hire possible. $40-55/hr.",
+      "apply_url": "https://example.com/job/6",
+      "salary_range": "$40-55/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "PostgreSQL", "LLM"]
+    }
+  },
+  {
+    "id": "good-2",
+    "expected_min_score": 6,
+    "category": "good_match",
+    "job": {
+      "title": "AI Engineer — Chatbot Development",
+      "company": "ChatGenius",
+      "location": "Remote",
+      "source": "wellfound",
+      "description": "Building conversational AI chatbots using LLMs. Looking for a contract engineer with Python, API design experience, and familiarity with prompt engineering. Knowledge of RAG is a plus but not required. Fully remote, flexible hours. $35-50/hr.",
+      "apply_url": "https://example.com/job/7",
+      "salary_range": "$35-50/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "LLM"]
+    }
+  },
+  {
+    "id": "good-3",
+    "expected_min_score": 6,
+    "category": "good_match",
+    "job": {
+      "title": "Full-Stack Developer — AI Product",
+      "company": "SmartDash",
+      "location": "Remote (Any timezone)",
+      "source": "hackernews",
+      "description": "SmartDash is hiring a full-stack developer for our AI analytics dashboard. React, Next.js, and REST API experience required. Our backend uses Python with some ML integrations. Contract, $40-60/hr. Remote-friendly.",
+      "apply_url": "https://example.com/job/8",
+      "salary_range": "$40-60/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "React", "Next.js"]
+    }
+  },
+  {
+    "id": "good-4",
+    "expected_min_score": 6,
+    "category": "good_match",
+    "job": {
+      "title": "ML Engineer — NLP/Text Processing",
+      "company": "TextFlow",
+      "location": "Remote (US preferred)",
+      "source": "linkedin",
+      "description": "TextFlow needs a contract ML engineer with NLP experience. You'll work on text classification, entity extraction, and search relevance. Python, transformers, and embedding models experience required. $45-65/hr, remote.",
+      "apply_url": "https://example.com/job/9",
+      "salary_range": "$45-65/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "LLM", "Hugging Face"]
+    }
+  },
+  {
+    "id": "good-5",
+    "expected_min_score": 6,
+    "category": "good_match",
+    "job": {
+      "title": "Contract TypeScript/Python Engineer",
+      "company": "DevBridge AI",
+      "location": "Remote",
+      "source": "wellfound",
+      "description": "Looking for a contract engineer comfortable with both TypeScript and Python. Our product uses Next.js with a FastAPI backend. Any AI/ML experience is a bonus. $35-50/hr, 3-6 month contract. Remote, async communication.",
+      "apply_url": "https://example.com/job/10",
+      "salary_range": "$35-50/hr",
+      "is_remote": true,
+      "tech_stack": ["Python", "FastAPI", "TypeScript", "Next.js"]
+    }
+  },
+  {
+    "id": "mediocre-1",
+    "expected_min_score": 3,
+    "category": "mediocre",
+    "job": {
+      "title": "Senior AI/ML Engineer — Full-time",
+      "company": "BigCo AI",
+      "location": "San Francisco, CA (Hybrid)",
+      "source": "linkedin",
+      "description": "BigCo AI is hiring a full-time Senior AI/ML Engineer for our San Francisco office. Must be able to come in 3 days/week. We work on cutting-edge LLM infrastructure. Python, PyTorch, and cloud experience required. $180-220k base + equity. Full-time only.",
+      "apply_url": "https://example.com/job/11",
+      "salary_range": "$180-220k",
+      "is_remote": false,
+      "tech_stack": ["Python", "LLM"]
+    }
+  },
+  {
+    "id": "mediocre-2",
+    "expected_min_score": 3,
+    "category": "mediocre",
+    "job": {
+      "title": "Data Scientist — Analytics (Full-time)",
+      "company": "MetricFlow",
+      "location": "Remote (India only)",
+      "source": "linkedin",
+      "description": "MetricFlow is hiring a Data Scientist based in India. The role involves SQL analytics, dashboarding, and some ML model training. Python and SQL required. Full-time permanent position. ₹25-35 LPA. India-based candidates only.",
+      "apply_url": "https://example.com/job/12",
+      "salary_range": "₹25-35 LPA",
+      "is_remote": true,
+      "tech_stack": ["Python", "AWS"]
+    }
+  },
+  {
+    "id": "mediocre-3",
+    "expected_min_score": 3,
+    "category": "mediocre",
+    "job": {
+      "title": "Frontend Engineer — React Dashboard",
+      "company": "UIPulse",
+      "location": "Remote (Europe)",
+      "source": "wellfound",
+      "description": "Looking for a React/Next.js frontend developer to build analytics dashboards. This is primarily a frontend role with minimal backend work. TypeScript, Tailwind, and charting library experience required. Contract, $30-45/hr. European timezone strongly preferred.",
+      "apply_url": "https://example.com/job/13",
+      "salary_range": "$30-45/hr",
+      "is_remote": true,
+      "tech_stack": ["React", "Next.js", "TypeScript"]
+    }
+  },
+  {
+    "id": "mediocre-4",
+    "expected_min_score": 3,
+    "category": "mediocre",
+    "job": {
+      "title": "Software Engineer — Internal Tools",
+      "company": "OpsFlow",
+      "location": "Remote (US timezone required)",
+      "source": "hackernews",
+      "description": "Building internal tools and automation scripts. Mostly CRUD applications with some workflow automation. Python and basic web dev required. Contract possible but prefer full-time. Must overlap US Pacific hours (9am-5pm PT). $40-55/hr.",
+      "apply_url": "https://example.com/job/14",
+      "salary_range": "$40-55/hr",
+      "is_remote": true,
+      "tech_stack": ["Python"]
+    }
+  },
+  {
+    "id": "mediocre-5",
+    "expected_min_score": 3,
+    "category": "mediocre",
+    "job": {
+      "title": "AI Research Intern",
+      "company": "FutureLab",
+      "location": "London, UK (Hybrid)",
+      "source": "linkedin",
+      "description": "FutureLab is seeking an AI Research Intern for a 6-month internship. You'll work alongside our research team on LLM evaluation benchmarks. Python required. This is an internship with potential for full-time conversion. On-site 2 days/week in London.",
+      "apply_url": "https://example.com/job/15",
+      "salary_range": "Stipend",
+      "is_remote": false,
+      "tech_stack": ["Python", "LLM"]
+    }
+  },
+  {
+    "id": "reject-1",
+    "expected_min_score": 1,
+    "category": "hard_reject",
+    "job": {
+      "title": "AI Security Engineer — US Citizens Only",
+      "company": "SecureAI Federal",
+      "location": "Washington, DC (On-site)",
+      "source": "linkedin",
+      "description": "SecureAI Federal is hiring an AI Security Engineer for classified government projects. Must be a US citizen with active security clearance. On-site in Washington, DC. Python and ML experience required. Full-time position with benefits.",
+      "apply_url": "https://example.com/job/16",
+      "salary_range": "$150-200k",
+      "is_remote": false,
+      "tech_stack": ["Python"]
+    }
+  },
+  {
+    "id": "reject-2",
+    "expected_min_score": 1,
+    "category": "hard_reject",
+    "job": {
+      "title": "Senior DevOps Engineer — On-prem Infrastructure",
+      "company": "InfraCore",
+      "location": "Austin, TX (On-site)",
+      "source": "linkedin",
+      "description": "InfraCore is looking for a DevOps engineer to manage on-premise data center infrastructure. Kubernetes, Terraform, and Linux administration required. No AI/ML components. On-site in Austin, TX required. Full-time with relocation assistance.",
+      "apply_url": "https://example.com/job/17",
+      "salary_range": "$130-160k",
+      "is_remote": false,
+      "tech_stack": ["AWS"]
+    }
+  },
+  {
+    "id": "reject-3",
+    "expected_min_score": 1,
+    "category": "hard_reject",
+    "job": {
+      "title": "Mobile Developer — iOS (India-based)",
+      "company": "AppVenture India",
+      "location": "Bangalore, India (On-site)",
+      "source": "linkedin",
+      "description": "AppVenture India is hiring an iOS developer for our Bangalore office. Swift, UIKit, and iOS development experience required. This is an India-only, on-site role. Full-time with Indian salary structure. No AI components.",
+      "apply_url": "https://example.com/job/18",
+      "salary_range": "₹15-25 LPA",
+      "is_remote": false,
+      "tech_stack": []
+    }
+  },
+  {
+    "id": "reject-4",
+    "expected_min_score": 1,
+    "category": "hard_reject",
+    "job": {
+      "title": "Blockchain/Solidity Developer",
+      "company": "CryptoNexus",
+      "location": "Remote",
+      "source": "wellfound",
+      "description": "CryptoNexus is building DeFi protocols and needs a Solidity smart contract developer. Ethereum, Solidity, and Web3.js experience required. No AI/ML components. Contract role, paid in USDC. Remote but must overlap with Dubai timezone.",
+      "apply_url": "https://example.com/job/19",
+      "salary_range": "Crypto payment",
+      "is_remote": true,
+      "tech_stack": []
+    }
+  },
+  {
+    "id": "reject-5",
+    "expected_min_score": 1,
+    "category": "hard_reject",
+    "job": {
+      "title": "QA Manual Tester — Gaming",
+      "company": "GameTest Pro",
+      "location": "Los Angeles, CA (On-site)",
+      "source": "hackernews",
+      "description": "GameTest Pro is hiring manual QA testers for our gaming studio. Test mobile and PC games, write bug reports, no coding required. On-site in Los Angeles. Full-time with benefits. No technical skills needed beyond basic computer literacy.",
+      "apply_url": "https://example.com/job/20",
+      "salary_range": "$45-55k",
+      "is_remote": false,
+      "tech_stack": []
+    }
+  }
+]
